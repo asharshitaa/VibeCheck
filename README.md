@@ -1,8 +1,3 @@
-Here’s your cleaned-up and **beautifully aligned README** for `VibeCheck`, ready to copy-paste:
-
----
-
-```markdown
 # 🌈 VibeCheck
 
 **VibeCheck** is a lightweight emotion detection tool that reads any sentence and predicts the emotion behind it using a machine learning model trained on the [GoEmotions](https://github.com/google-research/goemotions) dataset. It gives your words a "vibe check" – are they sad? angry? joyful? neutral?
@@ -15,27 +10,6 @@ Here’s your cleaned-up and **beautifully aligned README** for `VibeCheck`, rea
 - 🧠 Uses a trained logistic regression classifier.
 - 🔢 Supports multi-label emotion classification.
 - 📦 Easily extendable to web or chatbot interfaces.
-
----
-
-## 📁 Project Structure
-
-```
-
-VibeCheck/
-│
-├── data/                  # GoEmotions datasets (CSV format)
-├── models/
-│   ├── emotion\_model.pkl      # Trained logistic regression model
-│   └── label\_binarizer.pkl    # Label encoder for multi-label classification
-│
-├── prepare.py            # Preprocessing script
-├── train\_model.py        # Model training script
-├── predict.py            # CLI-based prediction script
-├── explore.py            # Data exploration notebook/script
-└── README.md
-
-````
 
 ---
 
